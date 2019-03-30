@@ -1,5 +1,5 @@
-import React from 'react';
-import {hydrate} from 'react-dom';
+import React from 'preact-compat';
+import {render} from 'preact-compat';
 import App from "./App";
 
-hydrate( <App/>, document.getElementById( 'root' ) );
+render( <App/>, document.getElementById( 'root' ) );

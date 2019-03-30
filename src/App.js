@@ -1,5 +1,5 @@
-import React from 'react';
-import { Router, Link } from "@reach/router";
+import React from 'preact-compat';
+import { Router, Link } from "preact-router";
 import About from "./components/About";
 
 class App extends React.Component {
@@ -7,7 +7,7 @@ class App extends React.Component {
 	render() {
 		return(
 			<React.Fragment>
-				<Link to="about">About Us</Link>
+				<Link href="/about">About Us</Link>
 				<Router>
 					<About path="/about"/>
 				</Router>
