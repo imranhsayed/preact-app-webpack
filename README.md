@@ -1,2 +1,3 @@
-# react-app-webpack
 # preact-app-webpack
+
+A React App Converted to Preact
